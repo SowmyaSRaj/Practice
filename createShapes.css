@@ -1,0 +1,40 @@
+/* Square */
+.square{
+    width: 100px;
+    height: 100px;
+    background: #f35467;
+}
+
+/* Circle */
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #00ff52;
+}
+
+/* Triangle */
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid transparent;
+    background: #0023f8;
+}
+
+/* Parallelogram */
+.parallelogram{
+    width: 100px;
+    height: 100px;
+    transform: skew(15deg);
+    background: #ff0000;
+}
+
+/* Diamond */
+.diamond{
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    background: #00ff00;
+}
